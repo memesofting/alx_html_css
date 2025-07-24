@@ -11,10 +11,12 @@ main {
 
 article {
     flex: 2;
+    background-color: rgb(241, 241, 241);
 }
 
 aside {
     flex: 1;
+    background-color: rgb(255, 245, 153);
 }
 
 article, aside {

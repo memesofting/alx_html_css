@@ -115,6 +115,7 @@ header .right {
 header {
 	padding: 20px 0;
 	height: 80px;
+    background-color: rgb(98, 111, 226);
 }
 header ul {
 	list-style: none;
