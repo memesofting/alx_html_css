@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <!-- <img id="header-image" src="./images/Object.png" alt="header image"> -->
         <nav>
-            <img src="https://fakeimg.pl/250x250?text=Sample+Logo" alt="logo">
+            <img src="./images/logo.png" alt="logo">
           
             <ul>
                 <li><a href="#">COURSE</a></li>
@@ -20,39 +23,42 @@
         
     </header>
     <main>
-        <section>
-            <div>
+        <section class="hero">
+            <div class="hero-text">
                 <h1>Get schooled</h1>
-                <span>SMILES</span>
-                <span>GRIN</span>
-                <span>LAUGH</span>
-                <button>REGISTER FOR FREE</button>
+                <div class="hero-subtitle">
+                    <span>SMILES</span>
+                    <span>GRIN</span>
+                    <span>LAUGH</span>
+                </div>
+                <button id="register">REGISTER FOR FREE</button>
             </div>
-            <div>
-                <h2>Learn from the pros</h2>
-                <div>
-                    <div>
-                        <img src="./images/1 (3).png" alt="">
+            <div class="pros">
+                <h2><strong style="color: #C271FF; font-weight: bold;">Learn</strong> from the pros</h2>
+                <div class="pros-list">
+                    <div class="pros-item">
+                        <img src="./images/1.png" alt="Phillip Massey">
                         <h3>Phillip Massey</h3>
                         <p>« Smile of the year » 2018 - 2019</p>
                     </div>
-                    <div>
-                        <img src="./images/6.png" alt="">
+                    <div class="pros-item">
+                        <img src="./images/6.png" alt="Nannie Lawrence">
                         <h3>Nannie Lawrence</h3>
                         <p>Best « little smile » 2017</p>
                     </div>
-                    <div>
-                        <img src="./images/7.png" alt="">
+                    <div class="pros-item">
+                        <img src="./images/7.png" alt="Bruce Walters">
                         <h3>Bruce Walters</h3>
                         <p>Best « Friend Smile » live performance 2019</p>
                     </div>
-                    <div>
-                        <img src="./images/8.png" alt="">
+                    <div class="pros-item">
+                        <img src="./images/8.png" alt="Henry Hughes">
                         <h3>Henry Hughes</h3>
                         <p>« 24h smiles » winner 2016 - 2019</p>
                     </div>
                 </div>
             </div>
+            <img id="hero-image" src="./images/Object.png" alt="">
         </section>
         <section>
             <div>
