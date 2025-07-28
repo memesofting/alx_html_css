@@ -85,7 +85,8 @@ nav a {
     border: none;
     border-radius: 22px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
+    padding: 10px;
+    margin: 30px;
 }
 
 h2 {
@@ -163,5 +164,164 @@ h2 {
 }
 
 .popular-tutorials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+    margin: 25px 200px;
+}
+
+.tutorials-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tutorial-item {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.tutorial-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: #C271FF;
+    font-weight: bold;
+    font-size: 14px;
+    gap: 10px;  
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.author h4 {
+    margin: 0;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating-star {
+    display: flex;
+    color: #C271FF;
+}
+
+.rating p {
+    margin-left: auto;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #071629;
+    color: white;
+    padding: 25px 200px;
+}
+
+.membership-list {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 30px;
+}
+
+.membership-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.membership-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.membership-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+.faq-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.faq-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* footer {
+    background-color: #071629;
+    color: white;
+    padding-top: 50px;
+} */
+
+footer {
+    display: flex;
+    height: 200px;
+    padding: 0;
+    background-color: #071629;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer-content p {
+    opacity: 35%;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-socials {
+    display: flex;
+}
+
+.footer-logo img {
+    margin-right: auto;
 }
