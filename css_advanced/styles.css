@@ -175,9 +175,11 @@ h2 {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .tutorial-item {
+    width: 250px;
     display: flex;
     flex-direction: column;
     font-weight: lighter;
