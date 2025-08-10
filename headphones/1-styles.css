@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', 'Spin Cycle';
     /* outline: 1px solid red; */
 }
 
@@ -51,7 +51,7 @@ nav a {
     color: aliceblue;
 }
 
-h1{
+.hero h1{
     font-family: 'Source Sans Pro';
     font-weight: bold;
     font-size: 32px;
@@ -98,9 +98,48 @@ h2 {
     color: #FFFFFF;
 }
 
-.hero p {
+p {
     font-size: small;
     font-weight: lighter;
     text-align: center;
     max-width: 600px;
+}
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 150px;
+    align-items: center;
+}
+
+.what-we-do h1 {
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    font-weight: bold;
+}
+
+.doings-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.doing {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doing span {
+    color: #FF6565;
+    font-size: 60px;
+}
+
+.doing p {
+    
 }
