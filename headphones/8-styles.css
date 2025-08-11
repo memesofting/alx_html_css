@@ -291,33 +291,6 @@ footer {
     text-align: center;
 }
 
-
-/* @media (max-width: 480px) {
-    nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        justify-content: space-between;
-        top: 60px;
-        right: 0;
-        width: 100%;
-    }
-
-    nav ul.active {
-        display: flex;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-} */
-
-
 @media (max-width: 480px) {
     nav ul {
         max-height: 0;
@@ -331,7 +304,7 @@ footer {
     }
 
     nav ul.active {
-        max-height: 500px; /* Just larger than your menu height */
+        max-height: 500px;
     }
 
     nav ul li {
